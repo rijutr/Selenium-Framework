@@ -13,6 +13,9 @@ public class ErrorValidationTest extends BaseTest {
     private static final String PRODUCT = "ZARA COAT 3";
     private static final String PRODUCT_VERIFY = "ZARA COAT 3";
 
+    /**
+     * This is a javadoc
+     */
     @Test(groups = {"ErrorHandling"}, retryAnalyzer = Retry.class)
     public void testIncorrectDetails() throws IOException {
         Login.login("test@cts.com", "Unni@1123");
